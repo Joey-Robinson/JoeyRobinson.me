@@ -1,0 +1,45 @@
+.Contact { 
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+  justify-items: center;
+  padding-top: 15rem;
+}
+
+.GitHub {
+  background: $lightwhite;
+  color: #333;
+  border: 1px solid $offwhite;
+  box-shadow: 9px 9px $soulblack;
+}
+
+.GitHub:hover {
+  color: #333;
+}
+
+.LinkedIn {
+  background: #0077b5;
+  color: white;
+  border: 1px solid $offwhite;
+  box-shadow: 9px 9px $soulblack;
+}
+
+.LinkedIn:hover {
+  background: #0077b5;
+  color: white;
+}
+
+.Twitter {
+  color: #1DA1F2;
+  border: 1px solid $offwhite;
+  box-shadow: 9px 9px $soulblack;
+}
+
+.Twitter:hover {
+  color: #1DA1F2;
+}
+
+.Email {
+  border: 1px solid $offwhite;
+  box-shadow: 9px 9px $soulblack;
+}

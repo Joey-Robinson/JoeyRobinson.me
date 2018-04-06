@@ -1,0 +1,52 @@
+.AboutModal {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  right: 40px;
+  bottom: 40px;
+  background: $darkslategrey;
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: white;
+}
+
+.ButtonModalOpen {
+  background: $offwhite;
+  color: $purple;
+  border: none;
+}
+
+.ButtonModalClose{
+  background: $offwhite;
+  color: $purple;
+  border: none;
+  position: absolute;
+  right: 60rem;
+  top: 30rem;
+}
+
+.ModalText {
+  display: grid;
+  grid-template-columns: repeat(auto, 1fr);
+  justify-items: center;
+  margin-top: 15rem;
+}
+
+.ModalTextOne {
+  display: grid;
+  grid-template-columns: repeat(auto, 1fr);
+  justify-items: center;
+  margin-top: 20rem;
+}
+
+.ModalList {
+  margin-top: 20rem;
+  display: grid;
+  justify-items: center;
+}

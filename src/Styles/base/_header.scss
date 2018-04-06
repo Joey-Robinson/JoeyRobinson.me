@@ -1,0 +1,11 @@
+.Header {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  border: 1px solid $offblack;
+  background: $lightblue;
+}
+
+.Header a {
+  color: $lightwhite;
+}

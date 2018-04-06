@@ -1,0 +1,31 @@
+.ModalBody {
+  position: absolute;
+  /* top: 20px; */
+  /* left: 20px; */
+  /* right: 20px; */
+  /* bottom: 20px; */
+  /* margin-top: 20rem; */
+  height: 20rem;
+  width: 20rem;
+  background: #292931;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(auto, 1fr);
+  justify-items: center;
+}
+
+.ModalOverlay {
+  margin-top: 20rem;
+  display: grid;
+  grid-template-columns: repeat(auto, 1fr);
+  justify-items: center;
+}
+
+.ModalButton {
+  background: #464b6a;
+  color: white;
+  border: none;
+  position: absolute;
+  right: 61.2rem;
+  top: 30rem;
+}

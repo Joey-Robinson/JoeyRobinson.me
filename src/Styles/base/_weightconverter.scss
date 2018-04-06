@@ -1,0 +1,9 @@
+input[type="number"] {
+  background-color: $lightwhite;
+  color: $darkblue;
+}
+
+input[type="number"]::placeholder {
+  color: $soulblack;
+  font-size: 1.3rem;
+}

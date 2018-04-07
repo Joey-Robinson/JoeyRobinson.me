@@ -1,14 +1,15 @@
 .NestedWeights {
   display: grid;
-  grid-template-columns: repeat(1fr, 1fr);
+  grid-template-columns: repeat(auto, 1fr);
+  justify-items: center;
+  width: 50rem;
   margin-top: 25rem;
-  width: 30rem;
-  margin-left: 50rem;
   background: $darkblue;
   color: $offwhite;
 }
 
-// .WeightsNested {
-//   background: white;
-//   width: 30rem;
-// }
+.WeightsNested {
+  display: grid;
+  grid-template-columns: repeat(auto, 1fr);
+  justify-items: center;
+}

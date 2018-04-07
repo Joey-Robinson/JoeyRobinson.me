@@ -4,7 +4,7 @@ const Footer = () => (
   <div>
     <div className="Phantom" />
       <div className="Footer">
-        footer
+        Joey Robinson
       </div>
 </div>
 )

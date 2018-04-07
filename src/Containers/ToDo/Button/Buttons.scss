@@ -2,20 +2,19 @@
   background: #464b6a;
   color: white;
   border: none;
-  margin: 2rem;
-  margin-left: 49rem;
-  width: 15rem;
+  width: 25rem;
 }
 
 .TodoButtonTwo {
   background: #464b6a;
   color: white;
   border: none;
-  margin-right: 25rem;
-  width: 15rem;
-  margin: -2rem;
+  margin: 1rem;
+  width: 25rem;
 }
 
-.ButtonDivContainer {
-  display: inline;
+.BindingDiv {
+  display: grid;
+  grid-template-columns: repeat(auto, 1fr);
+  justify-items: center;
 }

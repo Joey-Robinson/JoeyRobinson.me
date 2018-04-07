@@ -8,7 +8,13 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr 1fr;
-  margin-left: 40rem;
   padding: .3rem;
   justify-items: center;
+}
+
+.BindingDivOne {
+  display: grid;
+  grid-template-columns: repeat(auto, 1fr);
+  justify-items: center;
+  margin-left: 10rem;
 }

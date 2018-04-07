@@ -3,6 +3,7 @@ import RemoveOption from './RemoveOption.scss';
 
 const Option = (props) => {
   return (
+    <div className="BindingDivOne">
     <div className="RemoveOptionDiv">
       {props.optionText}
       <button
@@ -10,6 +11,7 @@ const Option = (props) => {
         onClick={(event) => {props.removeSingleItem(props.optionText)}}>
         Remove
       </button>
+      </div>
     </div>
   )
 }

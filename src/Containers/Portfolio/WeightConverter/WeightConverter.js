@@ -21,6 +21,7 @@ class WeightConverter extends Component {
     return (
       <div>
        <input
+          className="BindingDivThree"
           onChange={this.inputHandler}
           type="number"
           placeholder="Enter Pounds"

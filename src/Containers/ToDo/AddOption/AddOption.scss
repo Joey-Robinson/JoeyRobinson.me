@@ -1,7 +1,6 @@
 .AddOptionDiv {
   display: grid;
   grid-template-columns: repeat(auto, 1fr);
-
   justify-items: center;
 }
 .AddOptionForm {
@@ -18,5 +17,5 @@ input[type="text"] {
 .AddOptionButton {
   background: #464b6a;
   border: none;
-  width: 30.2rem;
+  width: 30rem;
 }

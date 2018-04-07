@@ -9,6 +9,7 @@ import Weights from '../../Components/Portfolio/Weights/Weights';
 import IndecisionApp from '../../Containers/ToDo/IndecisionApp';
 import Footer from '../../Components/Footer/Footer';
 import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
+import 'normalize.css';
 
 class PersonalSite extends Component {
   render() {

@@ -3,13 +3,14 @@ import IndecisionButtons from './Buttons.scss';
 
 const Button = (props) => {
   return (
-    <div>
+    <div className="BindingDiv">
       <button
         className="TodoButtonOne"
         onClick={props.handlePick}
         disabled={!props.hasOptions}>
         What Should I do?
       </button>
+
       <button
         className="TodoButtonTwo"
         onClick={props.handleDelete}>
